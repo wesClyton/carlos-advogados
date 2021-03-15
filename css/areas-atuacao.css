@@ -1,0 +1,71 @@
+#page-areas-atuacao .lista-areas {
+  padding: 50px 0 50px;
+}
+
+#page-areas-atuacao .container-area {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#page-areas-atuacao .container-area:hover {
+  background: #fff;
+}
+
+#page-areas-atuacao .container-area p {
+  font-size: 14px;
+}
+
+#page-areas-atuacao .container-area a {
+  position: absolute;
+  bottom: 0;
+}
+
+/*//////////////////////////////////////////////////*/
+/*			 Desktop Atual acima de 1200px			*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 1200px) {
+}
+
+/*//////////////////////////////////////////////////*/
+/*			            Tablets 					*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #page-areas-atuacao .container-area a {
+    position: inherit;
+  }
+}
+
+/*//////////////////////////////////////////////////*/
+/*			            Tablets 					*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/*//////////////////////////////////////////////////*/
+/*	       Smartphones e Tablets Menores			*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+/*//////////////////////////////////////////////////*/
+/*	       Smartphones e Tablets Menores			*/
+/*//////////////////////////////////////////////////*/
+
+@media (max-width: 575px) {
+  #page-areas-atuacao .container-area a {
+    position: inherit;
+    margin-top: 10px;
+  }
+
+  #page-areas-atuacao .container-area p {
+    font-size: 12px;
+  }
+
+  #page-areas-atuacao .container-area {
+    padding: 10px;
+  }
+}

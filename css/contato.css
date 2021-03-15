@@ -1,0 +1,230 @@
+#page-contato .contato {
+  padding: 85px 0 65px;
+}
+
+#page-contato .contato h4 {
+  color: var(--color-primary);
+  margin-bottom: 80px;
+}
+
+#page-contato .contato input::-webkit-input-placeholder,
+#page-contato .contato textarea::-webkit-input-placeholder {
+  font-size: 16px;
+  color: var(--color-grey-3);
+}
+
+#page-contato .contato input:-ms-input-placeholder,
+#page-contato .contato textarea:-ms-input-placeholder {
+  font-size: 16px;
+}
+
+#page-contato .contato input::placeholder,
+#page-contato .contato textarea::placeholder {
+  font-size: 16px;
+}
+
+#page-contato .contato input {
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid var(--color-grey-3);
+  margin-bottom: 30px;
+}
+
+#page-contato .contato textarea {
+  border: none;
+  border-bottom: 1px solid var(--color-grey-3);
+  margin-bottom: 30px;
+}
+
+#page-contato .text-contato {
+  max-width: 280px;
+}
+
+#page-contato .text-contato h4 {
+  margin-bottom: 40px;
+}
+
+#page-contato .text-contato a {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 16px;
+  color: var(--color-grey-2);
+}
+
+#page-contato .text-contato a:nth-child(2) {
+  font-size: 40px;
+}
+
+#page-contato .text-contato a:last-child {
+  font-size: 40px;
+  color: var(--color-primary-2);
+}
+
+#page-contato .contato .content-error {
+  position: relative;
+  width: 100%;
+}
+
+#page-contato .contato #alert {
+  opacity: 0;
+  -webkit-transition: 0.4s opacity;
+  transition: 0.4s opacity;
+  position: absolute;
+  top: -55px;
+  left: 0;
+  width: 100%;
+}
+
+#page-contato .contato .error,
+#page-contato .contato .success {
+  display: block;
+  background: #ff847f;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#page-contato .contato .success {
+  background: #b2de96;
+}
+
+#page-contato .localizacao {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  overflow: hidden;
+}
+
+#page-contato .embed-responsive-100x400px {
+  padding-bottom: 400px;
+}
+
+/*//////////////////////////////////////////////////*/
+/*			 Desktop Atual acima de 1200px			*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 1200px) {
+}
+
+/*//////////////////////////////////////////////////*/
+/*			            Tablets 					*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/*//////////////////////////////////////////////////*/
+/*			            Tablets 					*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #page-contato .contato {
+    padding: 50px 0 65px;
+  }
+
+  #page-contato .text-contato h4 {
+    margin-bottom: 30px;
+  }
+
+  #page-contato .text-contato a {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  #page-contato .text-contato a:nth-child(2) {
+    font-size: 32px;
+  }
+
+  #page-contato .text-contato a:last-child {
+    font-size: 30px;
+  }
+
+  #page-contato .embed-responsive-100x400px {
+    padding-bottom: 360px;
+  }
+}
+
+/*//////////////////////////////////////////////////*/
+/*	       Smartphones e Tablets Menores			*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #page-contato .contato {
+    padding: 45px 0 65px;
+  }
+
+  #page-contato .text-contato {
+    margin-top: 80px;
+    max-width: 100%;
+  }
+
+  #page-contato .text-contato h4 {
+    margin-bottom: 20px;
+  }
+
+  #page-contato .text-contato a {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  #page-contato .text-contato a:nth-child(2) {
+    font-size: 32px;
+  }
+
+  #page-contato .text-contato a:last-child {
+    font-size: 30px;
+  }
+
+  #page-contato .contato input {
+    margin-bottom: 20px;
+  }
+
+  #page-contato .embed-responsive-100x400px {
+    padding-bottom: 320px;
+  }
+}
+
+/*//////////////////////////////////////////////////*/
+/*	       Smartphones e Tablets Menores			*/
+/*//////////////////////////////////////////////////*/
+
+@media (max-width: 575px) {
+  #page-contato .contato {
+    padding: 45px 0 65px;
+  }
+
+  #page-contato .text-contato {
+    margin-top: 80px;
+    max-width: 100%;
+  }
+
+  #page-contato .contato h4 {
+    margin-bottom: 30px;
+  }
+
+  #page-contato .text-contato a {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  #page-contato .text-contato a:nth-child(2) {
+    font-size: 32px;
+  }
+
+  #page-contato .text-contato a:last-child {
+    font-size: 30px;
+  }
+
+  #page-contato .contato input {
+    margin-bottom: 20px;
+  }
+
+  #page-contato .localizacao {
+    height: auto;
+  }
+
+  #page-contato .embed-responsive-100x400px {
+    padding-bottom: 280px;
+  }
+}

@@ -1,0 +1,52 @@
+@media (max-width: 991px) {
+  #header .navbar-brand {
+    width: auto;
+    height: auto;
+  }
+
+  .navbar-light .navbar-toggler {
+    border: none;
+    position: absolute;
+    right: 0;
+  }
+
+  .navbar-toggler {
+    z-index: 99;
+  }
+
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-primary-2);
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .navbar-collapse.collapse.show {
+    height: 100vh;
+  }
+
+  .navbar-nav {
+    justify-content: center !important;
+    height: 100vh;
+    text-align: center;
+  }
+
+  #header .navbar-nav a {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    padding: 15px 0;
+  }
+
+  #header .navbar-brand {
+    position: relative;
+    z-index: 99;
+    width: 230px;
+  }
+}

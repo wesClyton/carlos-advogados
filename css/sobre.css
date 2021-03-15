@@ -1,0 +1,142 @@
+#page-sobre .historia {
+  padding: 50px 0 120px;
+}
+
+#page-sobre .historia h2 {
+  margin-bottom: 40px;
+}
+
+#page-sobre .historia p {
+  margin-bottom: 30px;
+}
+
+#page-sobre .historia p:last-child {
+  margin-bottom: 0px;
+}
+
+#page-sobre .since {
+  line-height: 71%;
+  font-size: 140px;
+  color: var(--color-primary-2);
+}
+
+#page-sobre .valores {
+  padding: 60px 0 85px;
+}
+
+#page-sobre .valores .content-valores {
+  background-color: var(--color-grey);
+  padding: 40px;
+  color: var(--color-grey-5);
+}
+
+#page-sobre .valores .content-valores h2 {
+  color: var(--color-primary-2);
+  margin-bottom: 20px;
+}
+
+#page-sobre .politica p {
+  padding: 40px 0;
+}
+
+#page-sobre .politica ul {
+  list-style: none;
+  padding-bottom: 80px;
+}
+
+/*//////////////////////////////////////////////////*/
+/*			 Desktop Atual acima de 1200px			*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 1200px) {
+}
+
+/*//////////////////////////////////////////////////*/
+/*			            Tablets 					*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #page-sobre .since {
+    font-size: 120px;
+  }
+}
+
+/*//////////////////////////////////////////////////*/
+/*			            Tablets 					*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #page-sobre .historia {
+    padding: 50px 0 70px;
+  }
+
+  #page-sobre .since {
+    font-size: 100px;
+  }
+
+  #page-sobre .valores {
+    padding: 50px 0 50px;
+  }
+}
+
+/*//////////////////////////////////////////////////*/
+/*	       Smartphones e Tablets Menores			*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #page-sobre .historia {
+    padding: 50px 0 70px;
+  }
+
+  #page-sobre .since {
+    font-size: 70px;
+  }
+
+  #page-sobre .valores {
+    padding: 50px 0 50px;
+  }
+
+  #page-sobre .valores .content-valores {
+    padding: 25px;
+  }
+
+  #page-sobre .politica li {
+    font-size: 14px;
+  }
+}
+
+/*//////////////////////////////////////////////////*/
+/*	       Smartphones e Tablets Menores			*/
+/*//////////////////////////////////////////////////*/
+
+@media (max-width: 575px) {
+  #page-sobre .historia {
+    padding: 50px 0 70px;
+  }
+
+  #page-sobre .since {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 90px;
+  }
+
+  #page-sobre .content-valores {
+    margin-bottom: 40px;
+  }
+
+  #page-sobre .valores {
+    padding: 50px 0 10px;
+  }
+
+  #page-sobre .valores .content-valores {
+    padding: 25px;
+  }
+
+  #page-sobre .politica p {
+    padding: 26px 0;
+  }
+
+  #page-sobre .politica li {
+    font-size: 14px;
+  }
+}

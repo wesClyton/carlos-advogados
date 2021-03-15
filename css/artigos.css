@@ -1,0 +1,100 @@
+#page-artigos .list-artigos {
+  padding: 85px 0 65px;
+}
+
+#page-artigos input::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+#page-artigos input:-ms-input-placeholder {
+  font-size: 16px;
+}
+
+#page-artigos input::plac#page-artigos eholder {
+  font-size: 16px;
+}
+
+#page-artigos .input-group {
+  max-width: 370px;
+}
+
+#page-artigos h1 {
+  margin-bottom: 30px;
+}
+
+#page-artigos .form-control {
+  background: #000;
+  border-color: #000;
+}
+
+#page-artigos .btn-outline {
+  background: #000;
+}
+
+#page-artigos .btn-outline i {
+  color: var(--color-primary);
+}
+
+#page-artigos .item-artigo {
+  margin-bottom: 50px;
+}
+
+#page-artigos .item-artigo p {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+#page-artigos .item-artigo a {
+  margin-top: 30px;
+}
+
+/*//////////////////////////////////////////////////*/
+/*			 Desktop Atual acima de 1200px			*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 1200px) {
+}
+
+/*//////////////////////////////////////////////////*/
+/*			            Tablets 					*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/*//////////////////////////////////////////////////*/
+/*			            Tablets 					*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/*//////////////////////////////////////////////////*/
+/*	       Smartphones e Tablets Menores			*/
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #page-artigos .item-artigo {
+    text-align: center;
+  }
+
+  #page-artigos .item-artigo h4,
+  #page-artigos .item-artigo p {
+    text-align: left;
+  }
+}
+
+/*//////////////////////////////////////////////////*/
+/*	       Smartphones e Tablets Menores			*/
+/*//////////////////////////////////////////////////*/
+
+@media (max-width: 575px) {
+  #page-artigos .item-artigo {
+    text-align: center;
+  }
+
+  #page-artigos .item-artigo h4,
+  #page-artigos .item-artigo p {
+    text-align: left;
+  }
+}
