@@ -19,7 +19,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: var(--color-primary-2);
+    background-color: var(--color-grey);
   }
 
   .navbar-light .navbar-toggler-icon {
