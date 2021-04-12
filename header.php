@@ -65,10 +65,10 @@
                         </button>
 
                         <div class="ml-auto text-right">
-                            <div class="contato-link d-none d-lg-block">
+                            <!-- <div class="contato-link d-none d-lg-block">
                                 <a href="mailto:controladoria@carlosalbertoadvogados.com.br">controladoria@carlosalbertoadvogados.com.br</a>
                                 <a href="tel:+554430286588">(44) 3028-6588</a>
-                            </div>
+                            </div> -->
                             <div class="collapse navbar-collapse" id="navbarCollapse">
                                 <div class="navbar-nav ml-auto">
                                     <a href="<?php echo get_home_url(); ?>" class="nav-item nav-link active">Home</a>

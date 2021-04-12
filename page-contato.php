@@ -43,7 +43,7 @@
         // $emailTo = get_bloginfo('admin_email');
         // $to = 'Contato - '.$name.' <'.$emailTo.'>';
 
-        $send = wp_mail("contato@lwy.com.br", "Contato do Site", $mensagem, $headers); //, $headers
+        $send = wp_mail("contato@carlosalbertoadvogados.com.br", "Contato do Site", $mensagem, $headers); //, $headers
 
         // $send = wp_mail (" destinatário@example.com ", "Assunto", "Mensagem");
 
@@ -76,7 +76,7 @@
           <div class="col-12 text-center">
             <h4>Em que podemos ajudar?</h4>
           </div>
-          <div class="col-12 col-sm-10 col-md-7 col-lg-6">
+          <div class="col-12 col-sm-10 col-md-6 col-lg-6">
             <form id="form-contato">
               <div class="row">
                 <div class="col-12">
@@ -96,12 +96,15 @@
               </div>
             </form>
           </div>
-          <div class="col-12 col-sm-10 col-md-5 col-lg-5 align-self-center">
+          <div class="col-12 col-sm-10 col-md-6 col-lg-6 align-self-center">
             <div class="text-contato text-center">
-              <h4>Entre em contato através dos nossos canais:</h4>
+              <h4>Entre em contato através <br class="d-none d-sm-block"> dos nossos canais:</h4>
               <a target="_blank" href="tel:+55444430286588">(44) 3028-6588</a>
-              <a target="_blank" href="mailto:controladoria@carlosalbertoadvogados.com.br">controladoria@carlosalbertoadvogados.com.br</a>
-              <a target="_blank" href="https://www.facebook.com/CarlosAlbertodosSantoseAdvogadosAssociados/"><i class="icon-facebook"></i></a>
+              <a target="_blank" href="mailto:contato@carlosalbertoadvogados.com.br">contato@carlosalbertoadvogados.com.br</a>
+              <div class="sociais">
+                <a target="_blank" href="https://www.facebook.com/CarlosAlbertodosSantoseAdvogadosAssociados/"><i class="icon-facebook"></i></a>
+                <a target="_blank" href="#"><i class="icon-instagram"></i></a>
+              </div>
             </div>
           </div>
         </div>

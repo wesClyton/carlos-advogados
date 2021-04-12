@@ -22,7 +22,7 @@
                     <div class="d-sm-flex justify-content-sm-between">
                         <div class="contato-footer">
                             <a href="tel:+554430286588">(44) 3028-6588</a>
-                            <a href="mailto:controladoria@carlosalbertoadvogados.com.br">controladoria@carlosalbertoadvogados.com.br</a> 
+                            <a href="mailto:contato@carlosalbertoadvogados.com.br">contato@carlosalbertoadvogados.com.br</a> 
                         </div>
                         <div class="endereco d-sm-flex align-items-center">
                             <a target="_blank" href="https://www.google.com/maps/place/carlos+alberto+dos+santos+e+advogados+associados/@-23.4227521,-51.9333504,17z/data=!3m1!4b1!4m5!3m4!1s0x94ecd72c89830aff:0x3b8b7303043e10a4!8m2!3d-23.4227521!4d-51.9311617"><p>Rua Neo Alves Martins, 1796 - Zona 01 | Maringá-Paraná</p></a>

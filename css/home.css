@@ -1,359 +1,372 @@
-#page-home .banner {
-  height: 80vh;
-}
-
-#page-home .text-banner {
-  top: 50%;
-}
-
-/* Areas de atuacão */
-
-#page-home .areas-atuacao {
-  background: url("../img/bg-areas-atuacao-home.png") no-repeat bottom center;
-  background-size: 100% auto;
-  padding-bottom: 130px;
-}
-
-#page-home .areas-atuacao h1 {
-  color: var(--color-grey-2);
-  margin: 70px 0 50px;
-}
-
-#page-home h1.title::after {
-  background: var(--color-grey-2);
-}
-
-#page-home .itens-area {
-  height: auto;
-}
-
-#page-home .itens-area img {
-  filter: grayscale(20%) brightness(58%) opacity(80%) contrast(99%);
-  -webkit-filter: grayscale(20%) brightness(58%) opacity(80%) contrast(99%);
-  -moz-filter: grayscale(20%) brightness(58%) opacity(80%) contrast(99%);
-}
-
-#page-home .itens-area .itens-area:hover img {
-  filter: none;
-}
-
-#page-home .itens-area .title-float {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  transform: translateY(-50%);
-  color: #fff;
-
-  -webkit-transition: opacity 0.3s ease-in;
-  -moz-transition: opacity 0.3s ease-in;
-  -o-transition: opacity 0.3s ease-in;
-  -ms-transition: opacity 0.3s ease-in;
-  transition: opacity 0.3s ease-in;
-}
-
-#page-home .item-area:hover .title-float {
-  opacity: 0;
-}
-
-#page-home .item-area a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  background: rgba(14, 14, 14, 0.8);
-  color: #fff;
-  text-align: center;
-
-  -webkit-transition: opacity 0.3s ease-in;
-  -moz-transition: opacity 0.3s ease-in;
-  -o-transition: opacity 0.3s ease-in;
-  -ms-transition: opacity 0.3s ease-in;
-  transition: opacity 0.3s ease-in;
-}
-
-#page-home .item-area:hover a {
-  opacity: 1;
-}
-
-#page-home .item-area a div {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 80%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
-#page-home .item-area a p {
-  padding: 20px 0 30px;
-}
-
-#page-home .itens-area .owl-dots {
-  bottom: -35px;
-}
-
-#page-home .text-areas {
-  position: relative;
-  margin-top: 100px;
-}
-
-#page-home .text-areas p {
-  padding: 80px;
-  font-size: 24px;
-  color: var(--color-grey-2);
-  line-height: 163%;
-  text-align: center;
-}
-
-#page-home .text-areas i {
-  position: absolute;
-  font-size: 200px;
-  color: var(--color-grey-4);
-}
-
-#page-home .text-areas i:first-child {
-  top: 80px;
-  left: 0;
-}
-
-#page-home .text-areas i:last-child {
-  bottom: 0;
-  right: 0;
-}
-
-/* /Areas de atuacao */
-
-/* Sobre */
-
-#page-home .sobre {
-  position: relative;
-  width: 100%;
-  min-height: 385px;
-  top: -55px;
-  padding: 90px 0 150px;
-  background: var(--color-grey) url("../img/bg-sobre-home.png") no-repeat bottom
-    center;
-  background-size: 100% auto;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  clip-path: ellipse(140% 100% at 50% 100%);
-  z-index: 10;
-}
-
-#page-home .sobre .title {
-  color: var(--color-grey-5);
-  margin-bottom: 90px;
-}
-
-#page-home .sobre .title::after {
-  background: var(--color-grey-5);
-}
-
-#page-home .sobre .since {
-  font-size: 140px;
-  line-height: 71%;
-  color: var(--color-primary-2);
-  opacity: 0.2;
-  text-align: center;
-}
-
-#page-home .sobre p {
-  margin-bottom: 50px;
-  color: var(--color-grey-5);
-  text-align: left;
-}
-
-#page-home .sobre p:last-child {
-  margin-bottom: 60px;
-}
-/* /Sobre */
-
-/* Artigos */
-
-#page-home .artigos {
-  padding: 15px 0 80px;
-}
-
-#page-home .artigos .title {
-  margin: 60px;
-}
-
-#page-home .item-artigo {
-  position: relative;
-  width: 100%;
-  padding: 20px;
-  margin-bottom: 50px;
-}
-
-#page-home .item-artigo:hover {
-  background: #fff;
-}
-
-#page-home .item-artigo a {
-  margin-top: 30px;
-}
-
-/* /Artigos */
-
-/*//////////////////////////////////////////////////*/
-/*			 Desktop Atual acima de 1200px			*/
-/*//////////////////////////////////////////////////*/
-
-@media (min-width: 1200px) {
-}
-
-/*//////////////////////////////////////////////////*/
-/*			            Tablets 					*/
-/*//////////////////////////////////////////////////*/
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  #page-home .sobre .since {
-    font-size: 110px;
-  }
-
-  #page-home .item-area a div {
-    width: 90%;
-  }
-}
-
-/*//////////////////////////////////////////////////*/
-/*			            Tablets 					*/
-/*//////////////////////////////////////////////////*/
-
-@media (min-width: 768px) and (max-width: 991px) {
-  #page-home .item-area a p {
-    padding: 10px 0 15px;
-  }
-
-  #page-home .text-areas i {
-    font-size: 150px;
-  }
-
-  #page-home .text-areas p {
-    padding: 65px;
-    font-size: 22px;
-  }
-
-  #page-home .sobre .since {
-    font-size: 80px;
-  }
-
-  #page-home .sobre p {
-    margin-bottom: 30px;
-  }
-
-  #page-home .sobre .title {
-    margin-bottom: 60px;
-  }
-
-  #page-home .sobre {
-    padding: 50px 0 80px;
-    clip-path: ellipse(190% 100% at 50% 100%);
-  }
-}
-
-/*//////////////////////////////////////////////////*/
-/*	       Smartphones e Tablets Menores			*/
-/*//////////////////////////////////////////////////*/
-
-@media (min-width: 576px) and (max-width: 767px) {
-  #page-home .text-areas i {
-    font-size: 110px;
-  }
-
-  #page-home .text-areas p {
-    padding: 60px;
-    font-size: 20px;
-  }
-
-  #page-home .text-areas i:first-child {
-    top: 60px;
-  }
-
-  #page-home .sobre {
-    padding: 50px 0 50px;
-    clip-path: ellipse(220% 100% at 50% 100%);
-  }
-
-  #page-home .sobre .since {
-    font-size: 90px;
-  }
-
-  #page-home .sobre .title {
-    margin-bottom: 30px;
-  }
-
-  #page-home .sobre p {
-    margin-bottom: 30px;
-  }
-
-  #page-home .artigos .title {
-    margin: 0px 0 40px;
-  }
-
-  #page-home .item-artigo {
-    margin-bottom: 20px;
-  }
-}
-
-/*//////////////////////////////////////////////////*/
-/*	       Smartphones e Tablets Menores			*/
-/*//////////////////////////////////////////////////*/
-
-@media (max-width: 575px) {
-  #page-home .text-areas i {
-    font-size: 100px;
-  }
-
-  #page-home .text-areas p {
-    padding: 40px;
-    font-size: 18px;
-  }
-
-  #page-home .text-areas i:first-child {
-    top: 40px;
-  }
-
-  #page-home .sobre {
-    padding: 50px 0 60px;
-    clip-path: ellipse(250% 100% at 50% 100%);
-  }
-
-  #page-home .sobre p:last-child {
-    margin-bottom: 50px;
-  }
-
-  #page-home .sobre .title {
-    color: var(--color-grey-5);
-    margin-bottom: 40px;
-  }
-
-  #page-home .sobre .since {
-    font-size: 50px;
-  }
-
-  #page-home .sobre p {
-    margin-bottom: 25px;
-  }
-
-  #page-home .artigos .title {
-    margin: 0px 0 30px;
-  }
-
-  #page-home .item-artigo {
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  #page-home .item-artigo h4 {
-    text-align: left;
-  }
-
-  #page-home .item-artigo p {
-    text-align: left;
-    padding-top: 5px;
-  }
-}
+#page-home .banner {
+  height: 80vh;
+}
+
+#page-home .text-banner {
+  top: 50%;
+}
+
+/* Areas de atuacão */
+
+#page-home .areas-atuacao {
+  background: url("../img/bg-areas-atuacao-home.png") no-repeat bottom center;
+  background-size: 100% auto;
+  padding-bottom: 130px;
+}
+
+#page-home .areas-atuacao h1 {
+  color: var(--color-grey-2);
+  margin: 70px 0 50px;
+}
+
+#page-home h1.title::after {
+  background: var(--color-grey-2);
+}
+
+#page-home .itens-area {
+  height: auto;
+}
+
+#page-home .itens-area img {
+  filter: grayscale(20%) brightness(58%) opacity(80%) contrast(99%);
+  -webkit-filter: grayscale(20%) brightness(58%) opacity(80%) contrast(99%);
+  -moz-filter: grayscale(20%) brightness(58%) opacity(80%) contrast(99%);
+}
+
+#page-home .itens-area .itens-area:hover img {
+  filter: none;
+}
+
+#page-home .itens-area .title-float {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  color: #fff;
+  -webkit-transition: opacity 0.3s ease-in;
+  -moz-transition: opacity 0.3s ease-in;
+  -o-transition: opacity 0.3s ease-in;
+  -ms-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+}
+
+#page-home .item-area:hover .title-float {
+  opacity: 0;
+}
+
+#page-home .item-area a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: rgba(14, 14, 14, 0.8);
+  color: #fff;
+  text-align: center;
+  -webkit-transition: opacity 0.3s ease-in;
+  -moz-transition: opacity 0.3s ease-in;
+  -o-transition: opacity 0.3s ease-in;
+  -ms-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+}
+
+#page-home .item-area:hover a {
+  opacity: 1;
+}
+
+#page-home .item-area a div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#page-home .item-area a p {
+  padding: 20px 0 30px;
+}
+
+#page-home .itens-area .owl-dots {
+  bottom: -35px;
+}
+
+#page-home .text-areas {
+  position: relative;
+  margin-top: 100px;
+}
+
+#page-home .text-areas p {
+  padding: 80px;
+  font-size: 24px;
+  color: var(--color-grey-2);
+  line-height: 163%;
+  text-align: center;
+}
+
+#page-home .text-areas i {
+  position: absolute;
+  font-size: 200px;
+  color: var(--color-grey-4);
+}
+
+#page-home .text-areas i:first-child {
+  top: 80px;
+  left: 0;
+}
+
+#page-home .text-areas i:last-child {
+  bottom: 0;
+  right: 0;
+}
+
+/* /Areas de atuacao */
+
+/* Sobre */
+
+#page-home .sobre {
+  position: relative;
+  width: 100%;
+  min-height: 385px;
+  top: -55px;
+  padding: 90px 0 150px;
+  background: var(--color-grey) url("../img/bg-sobre-home.png") no-repeat bottom
+    center;
+  background-size: 100% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: ellipse(140% 100% at 50% 100%);
+  z-index: 10;
+}
+
+#page-home .sobre .title {
+  color: var(--color-grey-5);
+  margin-bottom: 90px;
+}
+
+#page-home .sobre .title::after {
+  background: var(--color-grey-5);
+}
+
+#page-home .sobre .since {
+  font-size: 140px;
+  line-height: 71%;
+  color: var(--color-primary-2);
+  opacity: 0.8;
+  text-align: center;
+}
+
+#page-home .sobre p {
+  margin-bottom: 50px;
+  color: var(--color-grey-5);
+  text-align: left;
+}
+
+#page-home .sobre p:last-child {
+  margin-bottom: 60px;
+}
+
+/* /Sobre */
+
+/* Artigos */
+
+#page-home .artigos {
+  padding: 15px 0 80px;
+}
+
+#page-home .artigos .title {
+  margin: 60px;
+}
+
+#page-home .item-artigo {
+  position: relative;
+
+  width: 100%;
+
+  padding: 20px;
+
+  margin-bottom: 50px;
+}
+
+#page-home .item-artigo:hover {
+  background: #fff;
+}
+
+#page-home .item-artigo a {
+  margin-top: 30px;
+}
+
+/* /Artigos */
+
+/*//////////////////////////////////////////////////*/
+
+/*			 Desktop Atual acima de 1200px			*/
+
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 1200px) {
+}
+
+/*//////////////////////////////////////////////////*/
+
+/*			            Tablets 					*/
+
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #page-home .sobre .since {
+    font-size: 110px;
+  }
+
+  #page-home .item-area a div {
+    width: 90%;
+  }
+}
+
+/*//////////////////////////////////////////////////*/
+
+/*			            Tablets 					*/
+
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #page-home .item-area a p {
+    padding: 10px 0 15px;
+  }
+
+  #page-home .text-areas i {
+    font-size: 150px;
+  }
+
+  #page-home .text-areas p {
+    padding: 65px;
+
+    font-size: 22px;
+  }
+
+  #page-home .sobre .since {
+    font-size: 80px;
+  }
+
+  #page-home .sobre p {
+    margin-bottom: 30px;
+  }
+
+  #page-home .sobre .title {
+    margin-bottom: 60px;
+  }
+
+  #page-home .sobre {
+    padding: 50px 0 80px;
+    clip-path: ellipse(190% 100% at 50% 100%);
+  }
+}
+
+/*//////////////////////////////////////////////////*/
+
+/*	       Smartphones e Tablets Menores			*/
+
+/*//////////////////////////////////////////////////*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #page-home .text-areas i {
+    font-size: 110px;
+  }
+
+  #page-home .text-areas p {
+    padding: 60px;
+    font-size: 20px;
+  }
+
+  #page-home .text-areas i:first-child {
+    top: 60px;
+  }
+
+  #page-home .sobre {
+    padding: 50px 0 50px;
+    clip-path: ellipse(220% 100% at 50% 100%);
+  }
+
+  #page-home .sobre .since {
+    font-size: 90px;
+  }
+
+  #page-home .sobre .title {
+    margin-bottom: 30px;
+  }
+
+  #page-home .sobre p {
+    margin-bottom: 30px;
+  }
+
+  #page-home .artigos .title {
+    margin: 0px 0 40px;
+  }
+
+  #page-home .item-artigo {
+    margin-bottom: 20px;
+  }
+}
+
+/*//////////////////////////////////////////////////*/
+
+/*	       Smartphones e Tablets Menores			*/
+
+/*//////////////////////////////////////////////////*/
+
+@media (max-width: 575px) {
+  #page-home .text-areas i {
+    font-size: 100px;
+  }
+
+  #page-home .text-areas p {
+    padding: 40px;
+    font-size: 18px;
+  }
+
+  #page-home .text-areas i:first-child {
+    top: 40px;
+  }
+
+  #page-home .sobre {
+    padding: 50px 0 60px;
+    clip-path: ellipse(250% 100% at 50% 100%);
+  }
+
+  #page-home .sobre p:last-child {
+    margin-bottom: 50px;
+  }
+
+  #page-home .sobre .title {
+    color: var(--color-grey-5);
+    margin-bottom: 40px;
+  }
+
+  #page-home .sobre .since {
+    font-size: 50px;
+  }
+
+  #page-home .sobre p {
+    margin-bottom: 25px;
+  }
+
+  #page-home .artigos .title {
+    margin: 0px 0 30px;
+  }
+
+  #page-home .item-artigo {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #page-home .item-artigo h4 {
+    text-align: left;
+  }
+
+  #page-home .item-artigo p {
+    text-align: left;
+    padding-top: 5px;
+  }
+}

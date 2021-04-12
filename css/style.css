@@ -217,13 +217,13 @@ body > .wrapper {
 }
 .content_main {
   overflow: auto;
-  padding-bottom: 390px;
+  padding-bottom: 305px;
   position: relative;
   background-color: var(--color-grey-5);
 }
 .content_footer {
-  margin-top: -390px;
-  height: 390px;
+  margin-top: -305px;
+  height: 305px;
   clear: both;
   position: relative;
 }
@@ -521,16 +521,16 @@ h1.title::after {
 }
 
 #footer .logo-footer {
-  margin: 40px 0 54px;
+  margin: 21px 0 24px;
 }
 
 #footer .nav-footer {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 #footer .nav-footer a {
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   color: var(--color-grey-5);
   padding: 0 15px;
 }
@@ -554,7 +554,7 @@ h1.title::after {
 }
 
 #footer .copyright {
-  padding-top: 50px;
+  padding-top: 25px;
   font-size: 12px;
 }
 
@@ -592,13 +592,15 @@ h1.title::after {
 
 #inc-contato {
   color: var(--color-grey-5);
-  padding: 70px 0 70px;
+  /* padding: 70px 0 70px; */
+  padding: 30px 0 30px;
   background: var(--color-grey);
   text-align: center;
 }
 
 #inc-contato h4 {
-  margin: 20px 0 40px;
+  /* margin: 20px 0 40px; */
+  margin: 15px 0 15px;
   color: var(--color-primary);
 }
 
@@ -609,7 +611,7 @@ h1.title::after {
 #inc-contato hr {
   border-color: var(--color-grey-2);
   padding: 0;
-  margin: 100px 0 0;
+  margin: 50px 0 0;
 }
 
 /*//////////////////////////////////////////////////*/
@@ -619,7 +621,7 @@ h1.title::after {
 @media (min-width: 1200px) {
   #header .navbar-nav {
     height: 17px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
 }
 
@@ -630,7 +632,7 @@ h1.title::after {
 @media (min-width: 992px) and (max-width: 1199px) {
   #header .navbar-nav {
     height: 17px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
 
   #header .navbar-brand {
@@ -718,6 +720,10 @@ h1.title::after {
   #footer .contato-footer {
     margin-right: 20px;
   }
+
+  #footer .nav-footer a {
+    font-size: 14px;
+  }
 }
 
 /*/ /////////////////////////////////////////////////*/
@@ -772,6 +778,7 @@ h1.title::after {
 
   #footer .nav-footer a {
     padding: 0 8px;
+    font-size: 14px;
   }
 
   #footer .contato-footer a {

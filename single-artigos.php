@@ -7,7 +7,7 @@
   $args = array (
     'post_type' => 'artigos',
     'posts_per_page' => '3',
-    'post__not_in'      => array(get_the_id()),
+    'post__not_in'   => array(get_the_id()),
     'orderby', 'order',
     'order'   => 'DESC',
   );
@@ -54,9 +54,9 @@
             <div class="row">
               <?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); $count++; ?>
                 <div class="col-12 col-sm-4 item-artigo">
-                  <h5>Lorem Ipsum is simply dummy text </h5>
+                  <h5><?php echo wp_trim_words( get_the_title(), 11, '...' ); ?></h5>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has...
+                    <?php echo wp_trim_words( get_the_content(), 10, '...' ); ?>
                   </p>
                   <a href="<?php the_permalink(); ?>" class="btn-secondary-sm">leia mais</a>
                 </div>
