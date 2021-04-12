@@ -21,13 +21,13 @@
     <div class="banner">
         <div class="banner-item">
             <div class="text-banner">
-              <h1 class="title"><?php the_title(); ?></h1>
-              <div class="input-group m-auto">
+                <h1 class="title"><?php the_title(); ?></h1>
+                <!-- <div class="input-group m-auto">
                   <input type="text" name="busca" id="busca" class="form-control" placeholder="Pesquisar" aria-label="Pesquisar" aria-describedby="basic-addon2">
                   <div class="input-group-append">
                     <button class="btn btn-outline bt-pesquisar" type="button"><i class="icon-search"></i></button>
                   </div>
-                </div>
+                </div> -->
             </div>
             <!-- <img src="img/header-area-atuacao.png" class="img-cover"> -->
         </div>

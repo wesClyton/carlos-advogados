@@ -74,7 +74,7 @@
                                     <a href="<?php echo get_home_url(); ?>" class="nav-item nav-link active">Home</a>
                                     <a href="<?php echo get_home_url(); ?>/areas-atuacao" class="nav-item nav-link">Áreas de Atuação</a>
                                     <a href="<?php echo get_home_url(); ?>/sobre" class="nav-item nav-link">Sobre</a>
-                                    <a href="<?php echo get_home_url(); ?>/artigos" class="nav-item nav-link">Artigos e Pareceres</a>
+                                    <a href="<?php echo get_home_url(); ?>/lista-artigos" class="nav-item nav-link">Artigos e Pareceres</a>
                                     <a href="<?php echo get_home_url(); ?>/contato" class="nav-item nav-link">Contato</a>
                                 </div>
                             </div>

@@ -1,7 +1,7 @@
 AOS.init();
 
 $('.itens-banner').owlCarousel({
-    loop:true,
+    loop:false,
     items:1,
     nav:false,
     dots: true

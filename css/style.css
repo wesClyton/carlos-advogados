@@ -549,6 +549,10 @@ h1.title::after {
   font-weight: 700;
 }
 
+#footer .endereco a {
+  color: var(--color-grey-5);
+}
+
 #footer .copyright {
   padding-top: 50px;
   font-size: 12px;

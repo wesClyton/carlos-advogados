@@ -99,9 +99,9 @@
           <div class="col-12 col-sm-10 col-md-5 col-lg-5 align-self-center">
             <div class="text-contato text-center">
               <h4>Entre em contato através dos nossos canais:</h4>
-              <a href="#">(44) 3028-6588</a>
-              <a href="#">controladoria@carlosalbertoadvogados.com.br</a>
-              <a href="#"><i class="icon-facebook"></i></a>
+              <a target="_blank" href="tel:+55444430286588">(44) 3028-6588</a>
+              <a target="_blank" href="mailto:controladoria@carlosalbertoadvogados.com.br">controladoria@carlosalbertoadvogados.com.br</a>
+              <a target="_blank" href="https://www.facebook.com/CarlosAlbertodosSantoseAdvogadosAssociados/"><i class="icon-facebook"></i></a>
             </div>
           </div>
         </div>

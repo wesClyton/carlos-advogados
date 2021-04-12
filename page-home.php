@@ -29,21 +29,7 @@
         <div class="owl-carousel itens-banner">
             <div class="banner-item">
                 <div class="text-banner">
-                    <h1>Lorem Ipsum is simply <br> dummy text of the printing</h1>
-                </div>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/header-home.png" class="img-cover">
-            </div>
-
-            <div class="banner-item">
-                <div class="text-banner">
-                    <h1>Lorem Ipsum is simply <br> dummy text of the printing</h1>
-                </div>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/header-home.png" class="img-cover">
-            </div>
-
-            <div class="banner-item">
-                <div class="text-banner">
-                    <h1>Lorem Ipsum is simply <br> dummy text of the printing</h1>
+                    <h1>"Compromisso com a defesa <br> de seus direitos"</h1>
                 </div>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/header-home.png" class="img-cover">
             </div>
@@ -86,7 +72,7 @@
                     <div class="text-areas">
                         <i>“</i>
                         <p>
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                            Somos uma equipe de profissionais especializados em diversas áreas do direito, comprometidos com a ética e ao atendimento sério e responsável.
                         </p>
                         <i>”</i>
                     </div>
@@ -107,11 +93,14 @@
                 </div>
                 <div class="col-12 col-sm-10 col-md-7 text-center">
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        Somos uma equipe de profissionais especializados em diversas áreas do direito, comprometidos com a ética e ao atendimento sério e responsável.<br>
+                        Temos uma filosofia de trabalho simples, mas enérgica, procurando encontrar soluções eficazes e que melhor atendam aos anseios e interesses de nossos clientes e parceiros.
                     </p>
                     <p>
-                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        
+                        Com as certificações, buscamos proporcionar a satisfação do cliente e a melhoria continua de seus procedimentos, juntamente com a segurança da informação, pelo processo de análise de riscos de segurança no ambiente de infraestrutura e TI (tecnologia da Informação), tudo para atender os desejos e as necessidades do mercado e de seus clientes. 
                     </p>
+
 
                     <a href="<?php echo get_home_url(); ?>/sobre" class="btn-primary-lg">saiba mais</a>
                 </div>
@@ -142,7 +131,7 @@
 
             <div class="row">
                 <div class="col-12 text-center">
-                    <a href="#" class="btn-primary-lg">ver mais</a>
+                    <a href="<?php echo get_home_url(); ?>/lista-artigos" class="btn-primary-lg">ver mais</a>
                 </div>
             </div>
 

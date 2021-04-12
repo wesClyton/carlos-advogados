@@ -21,14 +21,22 @@
     <div class="historia">
         <div class="container">
             <div class="row justify-content-md-between align-items-center">
-                <div class="col-12 col-sm-7 col-md-6 col-lg-6 col-xl-5">
-                    <h2>História</h2>
+                <div class="col-12 col-sm-7 col-md-6 col-lg-6">
+                    <h2>Quem Somos</h2>
                     <p class="text-justify">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        A empresa foi fundada em 1995 pelo sócio Carlos Alberto dos Santos, em Maringá, Estado do Paraná e, desde então foi agregando inúmeros profissionais altamente qualificados, os quais tem orgulho de contar em seus quadros.
                     </p>
-
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        Somos uma equipe de profissionais especializados em diversas áreas do direito, comprometidos com a ética e ao atendimento sério e responsável.
+                    </p>
+                    <p>
+                        Temos uma filosofia de trabalho simples, mas enérgica, procurando encontrar soluções eficazes e que melhor atendam aos anseios e interesses de nossos clientes e parceiros.
+                    </p>
+                    <p>
+                        No ano de 2013, visando a evolução organizacional e a excelência na prestação dos serviços de Advocacia e, agraciados pelo espírito empreendedor de seu Fundador, tornou-se um dos pioneiros do Brasil, no ramo da advocacia, a obter a certificação da ISO9001 e ISO27001.
+                    </p>
+                    <p>
+                        Com as certificações, buscamos proporcionar a satisfação do cliente e a melhoria continua de seus procedimentos, juntamente com a segurança da informação, pelo processo de análise de riscos de segurança no ambiente de infraestrutura e TI (tecnologia da Informação), tudo para atender os desejos e as necessidades do mercado e de seus clientes. 
                     </p>
                 </div>
 
@@ -43,10 +51,11 @@
         <div class="owl-carousel fotos-sobre">
             <img src="<?php echo get_template_directory_uri(); ?>/img/escritorio-01.png" alt="">
             <img src="<?php echo get_template_directory_uri(); ?>/img/escritorio-02.png" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/escritorio-01.png" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/escritorio-02.png" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/escritorio-01.png" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/escritorio-02.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/escritorio-03.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/escritorio-04.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/escritorio-05.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/escritorio-06.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/escritorio-07.png" alt="">
         </div>
     </div>
 
@@ -55,18 +64,18 @@
             <div class="row justify-content-center justify-content-md-between text-justify">
                 <div class="col-10 col-sm-6 col-lg-5">
                     <div class="content-valores">
-                        <h2 class="text-center">Missão</h2>
+                        <h2 class="text-center">Visão</h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Ser uma sociedade de advogados reconhecida nacional e internacionalmente pela excelência de seus serviços e valorização de seu corpo de colaboradores
                         </p>
                     </div>
                 </div>
 
                 <div class="col-10 col-sm-6 col-lg-5">
                     <div class="content-valores">
-                        <h2 class="text-center">Visão</h2>
+                        <h2 class="text-center">Valores</h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Prestação de serviços advocatícios especializados com atendimento pleno da legislação aplicável e atualizada;
                         </p>
                     </div>
                 </div>
@@ -78,18 +87,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Política de Gestão</h2>
+                    <h2>Missão</h2>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        Desenvolver serviços advocatícios com excelência e foco nos resultados almejados pelos clientes, respeitando os princípios éticos, através de uma gestão centrada na valorização e aprimoramento constante dos recursos humanos.
+                        <br><br>
+                        Focados na excelência e eficiência da prestação dos serviços de advocacia, consultoria e assessoria jurídica, adota a seguinte Política Integrada de Gestão:
                     </p>
 
                     <ul>
-                        <li>- Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                        <li>- Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                        <li>- Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                        <li>- Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                        <li>- Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                        <var><li>- Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li></var>
+                        <li>- Atendimento dos requisitos e expectativas de nossos clientes;</li>
+                        <li>- Atendimento dos nossos próprios requisitos de qualidade e segurança da informação;</li>
+                        <li>- Comprometimento com o aumento sistemático da satisfação de nossos clientes;</li>
+                        <li>- Comprometimento com a segurança da informação e o uso dos recursos de processamento da informação<li>
+                        <li>- Melhoria continua da eficácia do Sistema Integrado de Gestão.</li>
                     </ul>
                 </div>
             </div>

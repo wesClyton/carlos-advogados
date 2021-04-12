@@ -52,6 +52,37 @@ remove_action('admin_print_scripts', 'print_emoji_detection_script');
 remove_action('wp_print_styles', 'print_emoji_styles');
 remove_action('admin_print_styles', 'print_emoji_styles');
 
+function pagination_bar() {
+    global $my_query;
+ 
+    $total_pages = $my_query->max_num_pages;
+ 
+    if ($total_pages > 1){
+        $current_page = max(1, get_query_var('paged'));
+ 
+        echo paginate_links(array(
+            'base' => get_pagenum_link(1) . '%_%',
+            'format' => '/page/%#%',
+            'current' => $current_page,
+            'total' => $total_pages,
+						'prev_next' => true,
+						'prev_text' => 'Página Anterior',
+						'next_text' => 'Próxima Página',
+        ));
+    }
+}
+
+// Code for themes
+add_action( 'after_switch_theme', 'flush_rewrite_rules' );
+
+// Code for plugins
+register_deactivation_hook( __FILE__, 'flush_rewrite_rules' );
+register_activation_hook( __FILE__, 'myplugin_flush_rewrites' );
+function myplugin_flush_rewrites() {
+	// call your CPT registration function here (it should also be hooked into 'init')
+	myplugin_custom_post_types_registration();
+	flush_rewrite_rules();
+}
 
 function custom_post_type_areas_atuacao()
 {
@@ -87,6 +118,14 @@ function custom_post_type_areas_atuacao()
 		)
 
 	));
+}
+
+
+add_filter('next_posts_link_attributes', 'posts_link_attributes');
+add_filter('previous_posts_link_attributes', 'posts_link_attributes');
+
+function posts_link_attributes() {
+  return 'class="btn-primary-sm"';
 }
 
 add_action('init', 'custom_post_type_areas_atuacao');
